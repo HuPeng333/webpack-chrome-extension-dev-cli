@@ -1,10 +1,10 @@
 {
   "name": "webpack-chrome-extension-dev-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "create": "node index.js"
+  "bin": {
+    "create-template": "index.js"
   },
   "keywords": [],
   "author": "",

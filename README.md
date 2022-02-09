@@ -5,5 +5,5 @@ for more details
 
 execute this command to download the template
 ```shell
-npx webpack-chrome-extension-dev-cli create
+npx webpack-chrome-extension-dev-cli
 ```
