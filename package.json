@@ -1,10 +1,10 @@
 {
   "name": "webpack-chrome-extension-dev-cli",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "a webpack template to help you build chrome extension",
   "main": "index.js",
   "bin": {
-    "create-template": "index.js"
+    "webpack-chrome-extension-dev-cli": "./bin/webpack-chrome-extension-dev-cli.js"
   },
   "keywords": [],
   "author": "",
