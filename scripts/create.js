@@ -15,6 +15,7 @@ module.exports = create = (projectName) => {
   const packageJson = JSON.parse(fs.readFileSync(PACKAGE_JSON_PATH, 'utf-8'))
   packageJson.name = projectName
   packageJson.version = '1.0.0'
+  packageJson.keywords = undefined
   fs.writeFileSync(PACKAGE_JSON_PATH, JSON.stringify(packageJson))
 
   // 处理git
